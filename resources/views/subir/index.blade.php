@@ -4,8 +4,8 @@
 
 @section('content')
     <div class="container">
-        <h2>Archivos Subidos</h2>
-        <ul class="file-list">
+        <h2>All files</h2>
+        <ul class="gallery">
             @foreach ($archivos as $archivo)
                 <li>
                     <a href="{{ route('subir.show', $archivo->id) }}">
