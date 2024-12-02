@@ -157,7 +157,7 @@ h2 {
     display: inline-block;
     margin-top: 20px;
     padding: 10px 20px;
-    background-color: #6fbfe8;
+    background-color: #a990e9;
     color: rgb(0, 0, 0);
     text-decoration: none;
     border-radius: 5px;
@@ -166,7 +166,7 @@ h2 {
 }
 
 .back-button:hover {
-    background-color: #a3d3ec;
+    background-color: #ceb8e0;
 }
 
 .main-button {

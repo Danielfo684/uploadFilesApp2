@@ -16,6 +16,8 @@
         <button type="submit">Upload File</button>
     </form>
 
-    <p><a href="{{ route('subir.index') }}">Go Back</a></p>
+    <a href="{{ route('subir.index') }}">
+        <div class="back-button">Go Back</div>
+</div>
 </div>
 @endsection
