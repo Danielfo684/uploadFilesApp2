@@ -13,7 +13,7 @@
         @csrf
         <input type="file" name="archivo" id="archivo" accept="image/*" required>
 
-        <button type="submit">Upload File</button>
+        <button type="submit"><div class="upload-button">Upload File</div></button>
     </form>
 
     <a href="{{ route('subir.index') }}">
