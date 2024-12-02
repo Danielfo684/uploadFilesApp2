@@ -73,23 +73,11 @@ h2 {
 }
 
 .upload-form input[type="file"] {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     padding: 10px;
-    font-size: 16px;
+    font-size: 30px;
 }
 
-.upload-form button {
-    background-color: #65afc5;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    cursor: pointer;
-    font-size: 16px;
-}
-
-.upload-form button:hover {
-    background-color: #65afc5;
-}
 
 .gallery {
     list-style: none;
