@@ -12,7 +12,7 @@
             <h3>Date{{ $archivo->created_at->format('d/m/Y H:i:s') }}</h3>
         </div>
         <div class="image-container">
-            <img src="{{ route('imagenes.show', basename($archivo->nombre)) }}" alt="{{ $archivo->nombre_original }}"
+            <img src="{{ route('imagenes.view', basename($archivo->nombre)) }}" alt="{{ $archivo->nombre_original }}"
                 style="width: 500px; height: auto;">
         </div>
     </div>
