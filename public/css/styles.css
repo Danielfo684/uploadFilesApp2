@@ -75,7 +75,7 @@ h2 {
 .upload-form input[type="file"] {
     margin-bottom: 10px;
     padding: 10px;
-    font-size: 30px;
+    font-size: 20px;
 }
 
 
@@ -142,8 +142,7 @@ h2 {
 }
 .upload-button{
     display: inline-block;
-    margin-top: 20px;
-    padding: 10px 20px;
+    padding: 20px 20px;
     background-color: #90e9b2;
     color: rgb(0, 0, 0);
     text-decoration: none;
@@ -158,7 +157,7 @@ h2 {
 .back-button {
     display: inline-block;
     margin-top: 20px;
-    padding: 10px 20px;
+    padding: 20px 20px;
     background-color: #a990e9;
     color: rgb(0, 0, 0);
     text-decoration: none;
