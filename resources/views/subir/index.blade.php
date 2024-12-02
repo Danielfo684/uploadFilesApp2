@@ -4,17 +4,18 @@
 
 @section('content')
 <div class="container">
-    <ul class="gallery">
-        @foreach ($archivos as $archivo)
-            <table class="file-table">
-                <thead>
-                    <tr>
-                        <th class="file-table-header">File Name</th>
-                        <th class="file-table-header">Publication Date</th>
-                        <th class="file-table-header">Image</th>
-                        <th class="file-table-header">Action</th>
-                    </tr>
-                </thead>
+    <div class="gallery">´
+        <table class="file-table">
+            <thead>
+                <tr>
+                    <th class="file-table-header">File Name</th>
+                    <th class="file-table-header">Publication Date</th>
+                    <th class="file-table-header">Image</th>
+                    <th class="file-table-header">Action</th>
+                </tr>
+            </thead>
+            @foreach ($archivos as $archivo)
+
                 <tbody>
                     <tr>
                         <td class="file-table-cell">{{ $archivo->nombre_original }}</td>
@@ -32,9 +33,9 @@
                         </td>
                     </tr>
                 </tbody>
-            </table>
-        @endforeach
 
-    </ul>
+            @endforeach
+        </table>
+    </div>
 </div>
 @endsection

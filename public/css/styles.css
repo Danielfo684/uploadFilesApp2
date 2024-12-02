@@ -94,7 +94,6 @@ h2 {
     list-style: none;
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
 }
 
 .gallery li {
