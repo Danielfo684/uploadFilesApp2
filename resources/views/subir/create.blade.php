@@ -4,7 +4,7 @@
 
 @section('content')
 <div class="container">
-    <div class="button">
+    <div class="main-button">
         <h2>Upload Your File Here</h2>
     </div>
 
