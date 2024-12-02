@@ -6,8 +6,8 @@
 
 body {
     font-family: Montserrat, sans-serif;
-    background-color: #cdcdcd;
-    color: #333;
+    background-color: #ffffff;
+    color: #000000;
 }
 
 header {
@@ -99,12 +99,12 @@ h2 {
 
 .gallery li p {
     font-size: 24px;
-    color: #333;
+    color: #000000;
 }
 
 .gallery li a {
     text-decoration: none;
-    color: #333;
+    color: #000000;
     display: block;
 }
 
@@ -148,7 +148,7 @@ button {
 .upload-button{
     display: inline-block;
     padding: 20px 20px;
-    background-color: #90e9b2;
+    background-color: #16a085;
     color: rgb(0, 0, 0);
     text-decoration: none;
     border-radius: 5px;
@@ -156,15 +156,15 @@ button {
     transition: .5s;
 }
 .upload-button:hover {
-    background-color: #b8e0ce;
+    background-color: #1fa468;
 }
 
 .back-button {
     display: inline-block;
     margin-top: 20px;
     padding: 20px 20px;
-    background-color: #a990e9;
-    color: rgb(0, 0, 0);
+    background-color: #959595;
+    color: rgb(255, 255, 255);
     text-decoration: none;
     border-radius: 5px;
     font-size: 16px;
@@ -172,7 +172,7 @@ button {
 }
 
 .back-button:hover {
-    background-color: #ceb8e0;
+    background-color: #b7b7b7;
 }
 
 .main-button {
@@ -184,14 +184,14 @@ button {
 }
 
 .subir {
-    background-color: rgb(37, 111, 168);
+    background-color: rgb(255, 255, 255);
     font-size: 16px;
     transition: .5s;
 color: white;
 }
 
 .subir:hover {
-    background-color: #52b6e8;
+    background-color: #c5ecff;
     color: white;
     text-decoration: none;
 }
