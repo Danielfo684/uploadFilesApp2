@@ -55,22 +55,15 @@ class SubirController extends Controller
     }
 
     public function view($upload) {
-        // Verifica si el archivo existe en el almacenamiento privado
         if (Storage::exists('ejercicio/' . $upload)) {
-            // Devuelve la imagen
             return response()->file(storage_path('app/private/ejercicio/' . $upload));
         }
-
-        abort(404);  // Si no se encuentra, lanza un error 404
+        abort(404);  
     }
-    // Método para eliminar un archivo
+   
     public function destroy($id) {
         $archivo = Subir::findOrFail($id);
-
-        // Elimina el archivo del almacenamiento
         Storage::delete('ejercicio/' . $archivo->nombre);
-
-        // Elimina el registro de la base de datos
         $archivo->delete();
 
         return redirect()->route('subir.index')->with('success', 'Archivo eliminado correctamente');

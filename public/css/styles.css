@@ -162,10 +162,11 @@ h2 {
     text-decoration: none;
     border-radius: 5px;
     font-size: 16px;
+    transition: .5s;
 }
 
 .back-button:hover {
-    background-color: #6fbfe8;
+    background-color: #a3d3ec;
 }
 
 .main-button {
@@ -179,6 +180,7 @@ h2 {
 .subir {
     background-color: white;
     font-size: 16px;
+    transition: .5s;
 
 }
 
@@ -230,6 +232,8 @@ h2 {
     border-radius: 5px;
     font-size: 14px;
     display: inline-block;
+    transition: .5s;
+
 }
 
 .view-button:hover {
@@ -248,6 +252,8 @@ h2 {
     border: none;
     cursor: pointer;
     display: inline-block;
+    transition: .5s;
+
 }
 
 .delete-button:hover {
