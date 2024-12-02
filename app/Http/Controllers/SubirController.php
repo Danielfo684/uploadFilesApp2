@@ -63,4 +63,16 @@ class SubirController extends Controller
 
         abort(404);  // Si no se encuentra, lanza un error 404
     }
+    // Método para eliminar un archivo
+    public function destroy($id) {
+        $archivo = Subir::findOrFail($id);
+
+        // Elimina el archivo del almacenamiento
+        Storage::delete('ejercicio/' . $archivo->nombre);
+
+        // Elimina el registro de la base de datos
+        $archivo->delete();
+
+        return redirect()->route('subir.index')->with('success', 'Archivo eliminado correctamente');
+    }
 }

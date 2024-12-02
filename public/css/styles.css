@@ -46,11 +46,12 @@ header nav ul li a:hover {
     align-items: center;
     text-align: center;
 }
+
 .header-container {
     width: 80%;
     margin: 0 auto;
     padding: 20px;
-gap: 20px;
+    gap: 20px;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -78,7 +79,7 @@ h2 {
 }
 
 .upload-form button {
-    background-color:#65afc5;
+    background-color: #65afc5;
     color: white;
     padding: 10px 20px;
     border: none;
@@ -180,17 +181,21 @@ h2 {
     font-size: 16px;
 
 }
+
 .subir:hover {
     background-color: #299fda;
     color: white;
     text-decoration: none;
 }
+
 /* Estilos para la tabla */
 .file-table {
     width: 100%;
     margin-bottom: 20px;
-    border-collapse: collapse; /* Eliminar separación entre líneas */
-    table-layout: fixed; /* Establecer el mismo ancho para cada columna */
+    border-collapse: collapse;
+    /* Eliminar separación entre líneas */
+    table-layout: fixed;
+    /* Establecer el mismo ancho para cada columna */
 }
 
 .file-table-header {
@@ -199,14 +204,16 @@ h2 {
     text-align: left;
     background-color: #f4f4f9;
     font-weight: bold;
-    width: 25%; /* Asegura que cada columna tenga el mismo tamaño */
+    width: 25%;
+    /* Asegura que cada columna tenga el mismo tamaño */
 }
 
 .file-table-cell {
     padding: 10px;
     border: 1px solid #ddd;
     text-align: left;
-    width: 25%; /* Asegura que cada columna tenga el mismo tamaño */
+    width: 25%;
+    /* Asegura que cada columna tenga el mismo tamaño */
 }
 
 .file-image img {
@@ -227,4 +234,23 @@ h2 {
 
 .view-button:hover {
     background-color: #1abc9c;
+}
+
+
+/* Estilo para el botón de eliminar */
+.delete-button {
+    background-color: #e74c3c;
+    /* Rojo */
+    color: white;
+    padding: 8px 16px;
+    border-radius: 5px;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.delete-button:hover {
+    background-color: #c0392b;
+    /* Rojo más oscuro */
 }
