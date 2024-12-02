@@ -9,15 +9,14 @@ use Illuminate\Support\Facades\Storage;
 
 class SubirController extends Controller
 {   
-    // Método para ver todos los archivos subidos
     public function index() {
         $archivos = Subir::all();
 
          if ($archivos->isEmpty()) {
-            return redirect()->route('subir.create'); // Redirecciona al formulario de subir archivo si no hay ningun arhivo
+            return redirect()->route('subir.create'); 
         }
 
-        return view('subir.index', compact('archivos'));  // Pasa los archivos a la vista
+        return view('subir.index', compact('archivos'));  
 
     }
 

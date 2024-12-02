@@ -13,7 +13,7 @@ body {
 header {
     background-color: #65afc5;
     color: white;
-    padding: 20px 0;
+    padding: 5px 0;
     text-align: center;
 }
 
@@ -189,15 +189,15 @@ h2 {
     color: white;
     text-decoration: none;
 }
+a {
+    text-decoration: none;
+}
 
-/* Estilos para la tabla */
 .file-table {
     width: 100%;
     margin-bottom: 20px;
     border-collapse: collapse;
-    /* Eliminar separación entre líneas */
     table-layout: fixed;
-    /* Establecer el mismo ancho para cada columna */
 }
 
 .file-table-header {
@@ -207,7 +207,6 @@ h2 {
     background-color: #f4f4f9;
     font-weight: bold;
     width: 25%;
-    /* Asegura que cada columna tenga el mismo tamaño */
 }
 
 .file-table-cell {
@@ -215,7 +214,6 @@ h2 {
     border: 1px solid #ddd;
     text-align: left;
     width: 25%;
-    /* Asegura que cada columna tenga el mismo tamaño */
 }
 
 .file-image img {
@@ -241,10 +239,8 @@ h2 {
 }
 
 
-/* Estilo para el botón de eliminar */
 .delete-button {
     background-color: #e74c3c;
-    /* Rojo */
     color: white;
     padding: 8px 16px;
     border-radius: 5px;
@@ -258,5 +254,4 @@ h2 {
 
 .delete-button:hover {
     background-color: #c0392b;
-    /* Rojo más oscuro */
 }
