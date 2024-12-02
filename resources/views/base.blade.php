@@ -10,9 +10,9 @@
     <header>
         <div class="container">
             <h1>Upload Files App</h1>
-            <nav>
-                <a href="{{ route('subir.create') }}" class="subir"><button>Upload your File Here</button></a>
-            </nav>
+            
+                <a href="{{ route('subir.create') }}" class="subir"><div class="main-button">Upload your File Here</div></a>
+            
         </div>
     </header>
 
