@@ -186,12 +186,12 @@ h2 {
     color: white;
     text-decoration: none;
 }
-
 /* Estilos para la tabla */
 .file-table {
     width: 100%;
     margin-bottom: 20px;
-    border-collapse: collapse;
+    border-collapse: collapse; /* Eliminar separación entre líneas */
+    table-layout: fixed; /* Establecer el mismo ancho para cada columna */
 }
 
 .file-table-header {
@@ -200,12 +200,14 @@ h2 {
     text-align: left;
     background-color: #f4f4f9;
     font-weight: bold;
+    width: 25%; /* Asegura que cada columna tenga el mismo tamaño */
 }
 
 .file-table-cell {
     padding: 10px;
     border: 1px solid #ddd;
     text-align: left;
+    width: 25%; /* Asegura que cada columna tenga el mismo tamaño */
 }
 
 .file-image img {
