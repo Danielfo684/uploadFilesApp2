@@ -8,7 +8,7 @@
 </head>
 <body>
     <header>
-        <div class="container">
+        <div class="header-container">
             <h1>Upload Files App</h1>
             
                 <a href="{{ route('subir.create') }}" class="subir"><div class="main-button">Upload your File Here</div></a>
