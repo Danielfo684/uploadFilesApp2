@@ -4,18 +4,37 @@
 
 @section('content')
 <div class="container">
-    <h2>All files</h2>
     <ul class="gallery">
         @foreach ($archivos as $archivo)
-            <li>
-                <a href="{{ route('subir.show', $archivo->id) }}">
-                    <p>{{ $archivo->nombre_original }}</p>
-                    <img src="{{ route('imagenes.view', basename($archivo->nombre)) }}"
-                        alt="{{ $archivo->nombre_original }}" style="max-width: 400px; height: auto;">
-
-                </a>
-            </li>
+            <table class="file-table">
+                <thead>
+                    <tr>
+                        <th class="file-table-header">File Name</th>
+                        <th class="file-table-header">Publication Date</th>
+                        <th class="file-table-header">Image</th>
+                        <th class="file-table-header">Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="file-table-cell">{{ $archivo->nombre_original }}</td>
+                        <td class="file-table-cell">
+                            {{($archivo->created_at) }}
+                        </td>
+                        <td class="file-table-cell file-image">
+                            <img src="{{ route('imagenes.view', basename($archivo->nombre)) }}"
+                                alt="{{ $archivo->nombre_original }}" />
+                        </td>
+                        <td class="file-table-cell">
+                            <a href="{{ route('subir.show', $archivo->id) }}" class="view-button">
+                                View Image
+                            </a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
         @endforeach
+
     </ul>
 </div>
 @endsection

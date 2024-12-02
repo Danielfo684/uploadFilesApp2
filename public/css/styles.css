@@ -187,3 +187,43 @@ h2 {
     text-decoration: none;
 }
 
+/* Estilos para la tabla */
+.file-table {
+    width: 100%;
+    margin-bottom: 20px;
+    border-collapse: collapse;
+}
+
+.file-table-header {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+    background-color: #f4f4f9;
+    font-weight: bold;
+}
+
+.file-table-cell {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.file-image img {
+    width: 100px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.view-button {
+    text-decoration: none;
+    background-color: #16a085;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 5px;
+    font-size: 14px;
+    display: inline-block;
+}
+
+.view-button:hover {
+    background-color: #1abc9c;
+}
