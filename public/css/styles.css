@@ -184,14 +184,14 @@ button {
 }
 
 .subir {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(228, 146, 75);
     font-size: 16px;
     transition: .5s;
 color: white;
 }
 
 .subir:hover {
-    background-color: #c5ecff;
+    background-color: rgb(225, 169, 120);
     color: white;
     text-decoration: none;
 }
