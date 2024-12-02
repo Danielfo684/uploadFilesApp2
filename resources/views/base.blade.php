@@ -11,7 +11,7 @@
         <div class="container">
             <h1>Upload Files App</h1>
             <nav>
-                <li><a href="{{ route('subir.create') }}" class="subir">Upload your File Here</a></li>
+                <a href="{{ route('subir.create') }}" class="subir"><button>Upload your File Here</button></a>
             </nav>
         </div>
     </header>
